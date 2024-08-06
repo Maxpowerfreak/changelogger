@@ -1,0 +1,30 @@
+###
+# A default Changelogger configuration file
+###
+
+######
+### Spec contains the configurations related to the format of a changelog
+### as per the Changelog definition found here: https://keepachangelog.com
+######
+[spec]
+###
+# Supported tags for the Changelog. These are the defaults defined in the Changelog spec
+###
+changes = ["Added", "Changed", "Deprecated", "Removed", "Fixed", "Security"]
+
+######
+### Output contains the configurations related to the output format of your Changelog
+######
+[output]
+###
+# Supported formats: 
+# - "markdown"
+# - Nothing else so far!
+###
+format = "markdown" 
+
+###
+# The filename of your Changelog
+# If the file does not exist, it will be created. 
+###
+filename = "CHANGELOG.md"
